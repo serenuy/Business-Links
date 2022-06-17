@@ -54,9 +54,9 @@ footer {
 .btn-dark {
 	background-color: black;
 	border: 0;
+	border-radius: 0;
 	width: 80vh;
 	opacity: 0.9;
-	border-radius: 0;
 }
 
 .links-box > .btn-dark:hover {
