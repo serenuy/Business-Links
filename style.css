@@ -16,7 +16,9 @@ video {
 	z-index: 0;
 }
 
-.image-box em, .links-box, footer {
+.image-box em, 
+.links-box, 
+footer {
 	font-family:'Single Day', cursive;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -41,7 +43,9 @@ h5 {
 	font-size: 40px;
 }
 
-h5, footer, .image-box, .links-box{
+h5, 
+footer, 
+.image-box, .links-box {
 	text-align: center;
 	margin-top: 10px;
 }
