@@ -16,6 +16,12 @@ video {
 	z-index: 0;
 }
 
+.image-box em, .links-box, footer {
+	font-family:'Single Day', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
 img {
 	width: 15vh;
 	border-radius: 100px;
@@ -23,12 +29,16 @@ img {
 }
 
 a {
-	color: black;
 	text-decoration: none;
 }
 
 footer > a {
 	color: skyblue;
+}
+
+h5 {
+	font-family: 'Square Peg', cursive;
+	font-size: 40px;
 }
 
 h5, footer, .image-box, .links-box{
@@ -37,6 +47,7 @@ h5, footer, .image-box, .links-box{
 }
 
 footer {
+	font-size: 15px;
 	margin-top: 20px;
 }
 
@@ -44,6 +55,7 @@ footer {
 	background-color: black;
 	border: 0;
 	width: 80vh;
+	opacity: 0.9;
 	border-radius: 0;
 }
 
@@ -66,15 +78,13 @@ footer {
 	z-index: 1;
 }
 
-.heart-icon {
-	font-size: 50px;
-}
-
 .modal {
 	color: black;
 }
 
 .push-right {
+	font-family: 'Square Peg', cursive;
+	font-size: 30px;
 	margin-left: 360px;
 }
 
@@ -82,11 +92,11 @@ footer {
 	.btn-dark {
 		width: 100%;
 	}
-	video {
-		height: 115vh;
-	}
 	.push-right {
 		margin-left: 200px;
+	}
+	video {
+		height: 115vh;
 	}
 }
 
