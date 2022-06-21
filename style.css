@@ -64,9 +64,9 @@ footer {
 }
 
 .btn-dark:focus {
+	box-shadow: none;
+	border-radius: 0;
 	background-color: black;
-	border: 0;
-	border-radius:0;
 }
 
 .links-box > .btn-dark:hover {
