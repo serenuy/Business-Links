@@ -63,6 +63,12 @@ footer {
 	opacity: 0.9;
 }
 
+.btn-dark:focus {
+	background-color: black;
+	border: 0;
+	border-radius:0;
+}
+
 .links-box > .btn-dark:hover {
 	background-color: white;
 	border: 1px solid black;
