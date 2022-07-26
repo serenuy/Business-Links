@@ -1,0 +1,117 @@
+body,
+html {
+	margin-top: 50px;
+	background-color: black;
+	color: white;
+}
+
+video {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.6;
+	z-index: 0;
+}
+
+.image-box em, 
+.links-box, 
+footer {
+	font-family:'Single Day', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+img {
+	width: 15vh;
+	border-radius: 100px;
+	border: 2px solid skyblue;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer > a {
+	color: skyblue;
+}
+
+h5 {
+	font-family: 'Square Peg', cursive;
+	font-size: 40px;
+}
+
+h5, 
+footer, 
+.image-box, 
+.links-box {
+	text-align: center;
+	margin-top: 10px;
+}
+
+footer {
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.btn-dark {
+	border: 0;
+	width: 80vh;
+	opacity: 0.9;
+}
+
+.btn-dark:focus,
+.btn-dark:active {
+	box-shadow: none;
+	border: 0;
+}
+
+.links-box > .btn-dark:hover {
+	background-color: white;
+}
+
+.links-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+}
+
+.btn-dark,
+.btn-dark:focus {
+	background-color: #000;
+}
+
+.modal,
+.links-box > .btn-dark:hover {
+	color: #000;
+}
+
+.push-right {
+	font-family: 'Square Peg', cursive;
+	font-size: 30px;
+	margin-left: 360px;
+}
+
+@media screen and (max-width: 900px){
+	.container {
+		width: 100%;
+	}
+	.btn-dark {
+		width: 100%;
+	}
+	.push-right {
+		margin-left: 200px;
+	}
+	video {
+		height: 115vh;
+	}
+}
+
